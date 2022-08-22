@@ -4,8 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "strategy": "node build/strategy/main.js",
-    "strategy:p": "node build/pratices/strategy/main.js"
+    "strategy": "node build/1-strategy/main.js",
+    "strategy:p": "node build/pratices/strategy/main.js",
+    "observer": "node build/2-observer/main.js"
   },
   "keywords": [],
   "author": "",
