@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "strategy": "node build/strategy/main.js"
+    "strategy": "node build/strategy/main.js",
+    "strategy:p": "node build/pratices/strategy/main.js"
   },
   "keywords": [],
   "author": "",
