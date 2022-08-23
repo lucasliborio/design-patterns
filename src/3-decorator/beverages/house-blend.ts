@@ -1,8 +1,12 @@
 import { Beverage } from "../abstract-class/beverage";
 
 export class HouseBlend extends Beverage {
-  description : string = "HouseBlend Coffe"
+  constructor() {
+    super()
+    this.description = "HouseBlend Coffe"
+  }
+
   public cost(): number {
-    return  0.89
+    return 0.89
   }
 } 
