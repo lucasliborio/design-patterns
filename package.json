@@ -8,7 +8,8 @@
     "strategy:p": "node build/pratices/strategy/main.js",
     "observer": "node build/2-observer/main.js",
     "observer:p": "node build/pratices/observer/main.js",
-    "decorator": "node build/3-decorator/main.js"
+    "decorator": "node build/3-decorator/main.js",
+    "decorator:p": "node build/pratices/decorator/main.js"
   },
   "keywords": [],
   "author": "",

@@ -1,5 +1,5 @@
 
-import { Duck } from "../../superclass/duck-class";
+import { Duck } from "../../abstract-class/duck-class";
 import { FlyWithWings } from "../behavior/fly/fly-with-wings";
 import { Squeak } from "../behavior/quack/squack";
 
