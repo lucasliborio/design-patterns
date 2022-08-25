@@ -4,12 +4,16 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "w": "tsc --watch",
+    "build": "rm -rf build && tsc",
     "strategy": "node build/1-strategy/main.js",
     "strategy:p": "node build/pratices/strategy/main.js",
     "observer": "node build/2-observer/main.js",
     "observer:p": "node build/pratices/observer/main.js",
     "decorator": "node build/3-decorator/main.js",
-    "decorator:p": "node build/pratices/decorator/main.js"
+    "decorator:p": "node build/pratices/decorator/main.js",
+    "factory": "node build/4-factory/main.js",
+    "factory:p": "node build/pratices/factory/main.js"
   },
   "keywords": [],
   "author": "",
