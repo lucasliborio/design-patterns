@@ -8,11 +8,11 @@ export interface Cheese {
   getName(): string
 }
 
-export interface Ingredients {
+/* export interface Ingredients {
   sauce: Sauce
   dough: Dough
   cheese: Cheese
-}
+} */
 
 export interface IngredientsOption {
   sauce: "tomato" | "marinara"

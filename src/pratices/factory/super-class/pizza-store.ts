@@ -1,5 +1,5 @@
 import { IngredientFactory } from "../abstract-factory/ingredient-factory";
-import { Ingredients, IngredientsOption } from "../interfaces/ingredients";
+import { IngredientsOption } from "../interfaces/ingredients";
 import { Pizza } from "./pizza";
 
 //CREATOR
@@ -8,6 +8,7 @@ export abstract class PizzaStore {
   constructor(ingredientsFactory: IngredientFactory ) { 
     this.ingredientsFactory = ingredientsFactory
   }
+
   orderPizza(type: string, ingredientsOption: IngredientsOption): Pizza {
     let pizza = this.createPizza(type)
     pizza.prepare(ingredientsOption)
@@ -15,6 +16,7 @@ export abstract class PizzaStore {
     pizza.box()
     return pizza
   }
+
   abstract createPizza(type: string): Pizza
 
 }

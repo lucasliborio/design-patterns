@@ -11,7 +11,6 @@ export class NandinhoIngredientFactory implements IngredientFactory {
   getCheese(type: string): Cheese {
     let cheese!: Cheese
     switch (type) {
-     
       case "mussarela":
         cheese = new MussarelaCheese()
         break

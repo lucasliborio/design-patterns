@@ -1,4 +1,3 @@
-import { Ingredients } from "../../interfaces/ingredients";
 import { Pizza } from "../../super-class/pizza";
 import { PizzaStore } from "../../super-class/pizza-store";
 import { NandinhoIngredientFactory } from "../ingredient-factory/nandinho-ingredients-factory";
@@ -10,7 +9,7 @@ export class VitorinosPizzaStore extends PizzaStore {
     super(new NandinhoIngredientFactory())
   }
   createPizza(type: string): Pizza {
-    console.log(this.ingredientsFactory)
+
     let pizza!: Pizza;
     switch (type) {
       case "portuguesa":

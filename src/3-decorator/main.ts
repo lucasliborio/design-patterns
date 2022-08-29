@@ -26,4 +26,5 @@ console.log(beverage.getDescription() + " $" + beverage.cost())
 
 
 const orderFinish = coffeMaker(orderNote)
-console.log(orderFinish?.getDescription() + " $" + orderFinish?.cost())
+console.log(orderFinish.getDescription() + " $" + orderFinish.cost())
+console.log(orderFinish)
