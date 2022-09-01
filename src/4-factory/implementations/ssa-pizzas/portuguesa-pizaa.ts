@@ -5,4 +5,5 @@ export class SsaPortuguesaPizza extends Pizza {
   dough: string = "Massa crocante"
   sauce: string = "Delicioso molho de tomate"
   toppings: string[] = ["Oregano, Mussarela Ralada, Ovos cozidos"]
+  
 }

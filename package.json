@@ -16,7 +16,8 @@
     "decorator:p3": "node build/pratices/decorator-p3/main.js",
     "factory": "node build/4-factory/main.js",
     "factory:p": "node build/pratices/factory/main.js",
-    "singleton": "node build/5-singleton/main.js"
+    "singleton": "node build/5-singleton/main.js",
+    "command": "node build/6-command/main.js"
   },
   "keywords": [],
   "author": "",

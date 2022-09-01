@@ -9,7 +9,7 @@ import { Soy } from "../decorator/soy";
 export const coffeMaker = (order: string[]) => {
   const beverageOrder = order.splice(0, 1)[0];
   const condimentsOrder = order;
-  let beverage: Beverage | undefined
+  let beverage!: Beverage
   switch (beverageOrder) {
     case "expresso":
       beverage = new Expresso();
