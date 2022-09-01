@@ -17,7 +17,8 @@
     "factory": "node build/4-factory/main.js",
     "factory:p": "node build/pratices/factory/main.js",
     "singleton": "node build/5-singleton/main.js",
-    "command": "node build/6-command/main.js"
+    "command": "node build/6-command/main.js",
+    "command:p": "node build/pratices/command/main.js"
   },
   "keywords": [],
   "author": "",
