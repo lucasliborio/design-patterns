@@ -1,7 +1,7 @@
 import { Bank } from "../interfaces/bank";
 import { Command } from "../interfaces/command";
 
-export class CheckAccount implements Command {
+export class CheckAccountCommand implements Command {
   constructor(
     private bank: Bank,
     private productValue: number,

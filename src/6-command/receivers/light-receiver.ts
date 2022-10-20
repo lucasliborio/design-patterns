@@ -1,4 +1,4 @@
-import { Light } from "../interfaces/receivers/ligth";
+import { Light } from "../interfaces/receivers/light";
 
 export class LightReceiver implements Light {
 

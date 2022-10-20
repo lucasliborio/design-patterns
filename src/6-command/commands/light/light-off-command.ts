@@ -1,5 +1,5 @@
 import { Command } from "../../interfaces/command";
-import { Light } from "../../interfaces/receivers/ligth";
+import { Light } from "../../interfaces/receivers/light";
 
 export class LightOffCommand implements Command {
   constructor(private light: Light) { }
